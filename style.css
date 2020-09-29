@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  /* border: solid black 1px; */
+}
+
+@media only screen and (max-width: 300px) {
+  .body {
+    display: block;
+  }
+}
+
+body  {
+  display: block;
+  color: white;
+  background-color: hsl(0, 100%, 28%);
+  font-family: verdana, sans-serif;
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+
+fieldset {
+  border: 1px solid black;
+}
+
+legend {
+  color: gold;
+}
+
+#submit {
+  position: relative;
+  top: -5px;
+  background-color: gold;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+a:link, a:visited {
+  color: gold;
+}
+
+a:focus, a:hover, a:active {
+  color: grey;
+}
